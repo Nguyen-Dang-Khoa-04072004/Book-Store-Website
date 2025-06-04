@@ -5,7 +5,7 @@ import SubcribeSection from "./SubcribeSection";
 
 export default function Footer() {
   return (
-    <div className="flex items-center justify-around gap-[20px] p-[50px]">
+    <div className="flex items-start justify-around gap-[20px] p-[50px]">
       <div className="flex flex-col gap-[30px] ">
         <IntroSection />
         <FollowUsSection />
