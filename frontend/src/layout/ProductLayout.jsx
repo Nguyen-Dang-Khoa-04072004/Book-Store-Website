@@ -7,7 +7,7 @@ export default function ProductLayout({ children }) {
     <>
       <Header />
       <Breadcums />
-      <main>{children}</main>
+      <main className="h-screen">{children}</main>
       <Footer />
     </>
   );
